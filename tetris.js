@@ -627,7 +627,7 @@
                 } else if (40 === code) {
                     moveDown();
                     keyDefined = true;
-                } else if (80 === code) {
+                } else if (loop && 80 === code) {
                     paused = !paused;
 
                     if (paused) {
