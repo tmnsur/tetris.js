@@ -508,7 +508,7 @@
                 blocks = parseInt(gE("sBlocks").innerHTML) + 1;
                 gE("sBlocks").innerHTML = blocks;
 
-                if (blocks < 101 && (0 === blocks % 10)) {
+                if (blocks < 91 && (0 === blocks % 10)) {
                     level = (blocks / 10) + 1;
                     speed = 550 - (level * 50);
 
